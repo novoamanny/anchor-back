@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "HomeSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content-section"
+    },
+    "HomeTab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.home-tab1"
+    },
+    "CertificationList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.certification-list"
+    },
+    "PreHomeTabTitle": {
+      "type": "string"
+    },
+    "PreHomeTabContent": {
+      "type": "richtext"
+    }
+  }
+}

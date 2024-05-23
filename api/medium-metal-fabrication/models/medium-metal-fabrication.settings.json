@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "medium_metal_fabrications",
+  "info": {
+    "name": "Medium Metal Fabrication"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    }
+  }
+}

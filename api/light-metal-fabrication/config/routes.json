@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/light-metal-fabrication",
+      "handler": "light-metal-fabrication.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/light-metal-fabrication",
+      "handler": "light-metal-fabrication.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/light-metal-fabrication",
+      "handler": "light-metal-fabrication.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

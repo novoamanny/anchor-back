@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_opportunities",
+  "info": {
+    "name": "Job Opportunities",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Opportunity": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ApplicationURL": {
+      "type": "string"
+    }
+  }
+}

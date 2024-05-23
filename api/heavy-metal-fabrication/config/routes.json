@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/heavy-metal-fabrication",
+      "handler": "heavy-metal-fabrication.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/heavy-metal-fabrication",
+      "handler": "heavy-metal-fabrication.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/heavy-metal-fabrication",
+      "handler": "heavy-metal-fabrication.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

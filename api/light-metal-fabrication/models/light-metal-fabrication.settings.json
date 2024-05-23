@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "light_metal_fabrications",
+  "info": {
+    "name": "Light Metal Fabrication"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/engineering",
+      "handler": "engineering.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/engineering",
+      "handler": "engineering.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/engineering",
+      "handler": "engineering.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_management_and_resources",
+  "info": {
+    "name": "Project Management & Resources"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "QualityControlTitle": {
+      "type": "string"
+    },
+    "QualityControlText": {
+      "type": "richtext"
+    },
+    "PlanningTitle": {
+      "type": "string"
+    },
+    "PlanningText": {
+      "type": "richtext"
+    },
+    "MitigationTitle": {
+      "type": "string"
+    },
+    "MitigationText": {
+      "type": "richtext"
+    },
+    "MetalManufacturingTitle": {
+      "type": "string"
+    },
+    "MetalManufacturingText": {
+      "type": "richtext"
+    },
+    "ProcessTitle": {
+      "type": "string"
+    },
+    "ProcessText": {
+      "type": "richtext"
+    }
+  }
+}

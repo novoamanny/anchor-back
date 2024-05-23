@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_content_content_sections",
+  "info": {
+    "name": "Content-Section",
+    "icon": "stream",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    },
+    "ButtonText2": {
+      "type": "string"
+    },
+    "ButtonURL2": {
+      "type": "string"
+    }
+  }
+}

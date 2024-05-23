@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "engineerings",
+  "info": {
+    "name": "Engineering"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    }
+  }
+}

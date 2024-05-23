@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_content_home_tab1s",
+  "info": {
+    "name": "Home Tab",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/medium-metal-fabrication",
+      "handler": "medium-metal-fabrication.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/medium-metal-fabrication",
+      "handler": "medium-metal-fabrication.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/medium-metal-fabrication",
+      "handler": "medium-metal-fabrication.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

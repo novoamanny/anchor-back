@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_content_certification_lists",
+  "info": {
+    "name": "CertificationList",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

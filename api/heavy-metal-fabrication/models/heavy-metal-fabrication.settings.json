@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "heavy_metal_fabrications",
+  "info": {
+    "name": "Heavy Metal Fabrication"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    }
+  }
+}

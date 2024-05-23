@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "resources",
+  "info": {
+    "name": "Resources",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "SecondaryTitle": {
+      "type": "string"
+    },
+    "Section1Title": {
+      "type": "string"
+    },
+    "Section1Content": {
+      "type": "richtext"
+    },
+    "Section2Title": {
+      "type": "string"
+    },
+    "Section2Content": {
+      "type": "richtext"
+    },
+    "Section3Title": {
+      "type": "string"
+    },
+    "Section3Content": {
+      "type": "richtext"
+    }
+  }
+}

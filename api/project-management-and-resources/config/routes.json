@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/project-management-and-resources",
+      "handler": "project-management-and-resources.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/project-management-and-resources",
+      "handler": "project-management-and-resources.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/project-management-and-resources",
+      "handler": "project-management-and-resources.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
